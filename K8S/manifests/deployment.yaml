@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: mywebsite
-        image: iamgajanantaur/demo
+        image: iamgajanantaur/mywebsite
         resources:
           limits:
             memory: "128Mi"

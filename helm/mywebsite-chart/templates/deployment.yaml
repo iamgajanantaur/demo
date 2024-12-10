@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: mywebsite
-        image: "iamgajanantaur/demo:{{ .Values.image.tag }}"
+        image: "iamgajanantaur/mywebsite:{{ .Values.image.tag }}"
         resources:
           limits:
             memory: "128Mi"
